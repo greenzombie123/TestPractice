@@ -15,7 +15,7 @@ export default [
     },
   },
   {
-    ignores: ["./dist/main.js", "webpack.config.js"],
+    ignores: ["./dist/main.js", "webpack.config.js", "babel.config.js", "test/*.test.js"],
   },
   eslintConfigPrettier,
 ];
